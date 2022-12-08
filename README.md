@@ -6,8 +6,8 @@
 
 ### Links and Resources
 
-- [ci/cd](   https://github.com/ezgi-c/server-deployment-practice/actions) (GitHub Actions)
-- [back-end server url](https://server-deployment-practice-ojr2.onrender.com/hello) (when applicable)
+- [ci/cd](https://github.com/ezgi-c/basic-express-server/actions) (GitHub Actions)
+- [back-end server url](https://basic-express-server-av3x.onrender.com/) (when applicable)
 [front-end application](http://xyz.com) (when applicable)
 
 ### Setup
@@ -22,7 +22,7 @@ i.e.
 #### How to initialize/run your application (where applicable)
 
 - e.g. `npm start`
-- `npx nodemon src/index.js`
+- `npx nodemon index.js`
 
 #### How to use your library (where applicable)
 
@@ -31,8 +31,9 @@ i.e.
 - How do you run tests?
     `npm test` and `npm run lint` in terminal
 - Any tests of note?
-    testing `/hello` endpoint and prettier formatting
+    name validator, server test for name in the query string
 - Describe any tests that you did not complete, skipped, etc
+    I didnt know what to write for the logger test
 
 #### UML
 
