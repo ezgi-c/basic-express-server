@@ -26,3 +26,10 @@ describe('Person Route', () => {
         expect(response.statusCode).toBe(500);
     });
 });
+
+describe("bad route test", () => {
+    test("should return 404 status code", async () => {
+      const response = await request.get("/badroute");
+      expect(response.statusCode).toBe(404);
+    });
+  });
